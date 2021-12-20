@@ -452,6 +452,33 @@
             </objects>
             <point key="canvasLocation" x="1788.75" y="77.112676056338032"/>
         </scene>
+        <!--NewVC-->
+        <scene sceneID="sNc-x4-car">
+            <objects>
+                <viewController storyboardIdentifier="NewVC" id="kV6-0k-9oq" customClass="NewVC" customModule="DemoTechGropse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j8z-Zg-osy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWl-gd-ncf">
+                                <rect key="frame" x="139" y="273.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="85j-8c-iHM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qWl-gd-ncf" firstAttribute="centerY" secondItem="j8z-Zg-osy" secondAttribute="centerY" id="Q9g-r4-u6t"/>
+                            <constraint firstItem="qWl-gd-ncf" firstAttribute="centerX" secondItem="j8z-Zg-osy" secondAttribute="centerX" id="p7b-9k-DlY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IIm-R5-e5U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2567" y="77"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="R7D-bd-5KU">
             <objects>

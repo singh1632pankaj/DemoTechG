@@ -19,6 +19,7 @@
 		3987373E2768FA9F00624CBE /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3987373D2768FA9F00624CBE /* ListCell.swift */; };
 		398737412769089C00624CBE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398737402769089C00624CBE /* Model.swift */; };
 		398737462769093D00624CBE /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398737452769093D00624CBE /* Data.swift */; };
+		39AAB31F2770CDA000E18194 /* NewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AAB31E2770CDA000E18194 /* NewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		3987373D2768FA9F00624CBE /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		398737402769089C00624CBE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		398737452769093D00624CBE /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		39AAB31E2770CDA000E18194 /* NewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				397E82DC276787F800B33D11 /* HomeVC.swift */,
 				3987373B2768FA8A00624CBE /* ListVC.swift */,
+				39AAB31E2770CDA000E18194 /* NewVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				3987373C2768FA8A00624CBE /* ListVC.swift in Sources */,
 				397E82C2276782E900B33D11 /* AppDelegate.swift in Sources */,
 				397E82DD276787F800B33D11 /* HomeVC.swift in Sources */,
+				39AAB31F2770CDA000E18194 /* NewVC.swift in Sources */,
 				3987373E2768FA9F00624CBE /* ListCell.swift in Sources */,
 				397E82C4276782E900B33D11 /* SceneDelegate.swift in Sources */,
 				397E82DB2767854F00B33D11 /* Extension.swift in Sources */,
